@@ -14,6 +14,5 @@ public class BookNotFoundException extends RuntimeException {
 	public BookNotFoundException() {
         super("Book not found");
         System.out.println("BookNotFoundException was thrown.");
-        System.out.println("BookNotFoundException was thrown.");
     }
 }
